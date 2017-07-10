@@ -10,6 +10,17 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peoplesAges`.
 
+function ages (){
+  return people.ages
+}
+var peoplesAges = []
+for (let i = 0; i > people.length; i++) {
+  peoplesAges.push(ages(people[i]))
+}
+
+var ages2 = people.map(ages)
+
+
 
 
 
